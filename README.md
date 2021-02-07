@@ -30,8 +30,8 @@ Test: "It returns false for years that are divisible by 100"
 Expect: (isLeapYear(2100)).toEqual(false);
 
 Test #4
-Test:
-Expect:
+Test: "It returns true for years that are divisible by 400"
+Expect: (isLeapYear(2000)).toEqual(true);
 
 Test #5
 Test:

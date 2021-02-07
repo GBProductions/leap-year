@@ -9,6 +9,39 @@
 
 _Checks to see if a year is a leap year or not._
 
+## Specs
+
+Rules:
+    * _A year divisible by 400 is a Leap Year._
+    * _A year divisible by 100 is NOT a Leap Year._
+    * _A year divisible by 4 is a Leap Year._
+
+Test #1
+Describe: isLeapYear()
+Test: "It returns false for years that are not Leap Years"
+Expect: (isLeapYear(1993)).toEqual(false)
+
+Test #2
+Test:
+Expect:
+
+Test #3
+Test:
+Expect:
+
+Test #4
+Test:
+Expect:
+
+Test #5
+Test:
+Expect:
+
+Test #6
+Test:
+Expect:
+
+
 
 ## Setup/Installation Requirements
 

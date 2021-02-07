@@ -15,6 +15,13 @@ $(document).ready(function() {
     const year = $("input#year").val();
 
     const answer = isLeapYear(year)
-    console.log(answer)
+
+    if (answer === true) {
+        $("#yes").show();
+        $("#no").hide();
+    } else {
+        $("#yes").hide();
+        $("#no").show();
+    };
   });
 });

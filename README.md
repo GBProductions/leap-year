@@ -19,11 +19,11 @@ Rules:
 Test #1
 Describe: isLeapYear()
 Test: "It returns false for years that are not Leap Years"
-Expect: (isLeapYear(1993)).toEqual(false)
+Expect: (isLeapYear(1993)).toEqual(false);
 
 Test #2
-Test:
-Expect:
+Test: "It returns true for years that are divisible by 4"
+Expect: (isLeapYear(2004)).toEqual(true);
 
 Test #3
 Test:
